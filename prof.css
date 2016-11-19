@@ -8,17 +8,7 @@ font-size: 14px;
 
 
 /* common */
-.logo {
-	padding-top: 50px;
-	width: 100%;
-	max-width: 400px;
-	margin-bottom: 30px;
-}
 
-#rogo h1 {
-	margin: 20px 0;
-	color: #aa8260;
-}
 
 #kakaku{  border-top: 1px solid red;}
 
@@ -33,7 +23,7 @@ color:seagreen;}
 color:seagreen;}
 #jire5 a,h3{
 color:seagreen;}
-#jire2 {background-color: honeydew;}
+#jire2 {background-color: lightcyan;}
 #jire5{background-color: honeydew;}
 #pc_mobile{
 	width: 435px;
@@ -58,7 +48,7 @@ color:seagreen;}
 	margin:0;
 	padding:0;
 }
-#toiawase h1{color: green;}
+#toiawase h1{color:seagreen;}
 #pc_mobile ul li{
 	float:left;
 	list-style-type:none;
@@ -76,7 +66,17 @@ color: green;}
 .pt10{
 	padding-top:10px;
 }
-#gaiyo h1{color: #aa8260;
+#gaiyo h1{color: seagreen;
+
+}
+button{background-color: limegreen;
+color: white;
+-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+		box-shadow: 2px 2px 3px 1px #666;
+	     -moz-box-shadow: 2px 2px 3px 1px #666;
+	     -webkit-box-shadow: 2px 2px 3px 1px #666;
 
 }
 #caution{
@@ -116,8 +116,19 @@ dl.cautionBlock dt {
 	font-size:11px;
 	color:#FF0000;
 }
+.logo {
+	padding-top: 50px;
+	width: 100%;
+	max-width: 400px;
+	margin-bottom: 30px;
+}
+
+#rogo h1 {
+	margin: 20px 0;
+	color: #aa8260;
+}
 a:hover {text-decoration: none;}
-#jire3 a:hover{color:orange;}
+a:hover{color:green;}
 dl.cautionBlock dd {
   /*margin-bottom: 1px;*/
   margin-left: 1em;
@@ -335,11 +346,17 @@ html, body {
 
 
 th {
-	background-color: rgb(205, 92, 92);
+	background-color:forestgreen;
 	border: 1px solid #2f2f2f;
 	color:white;
 }
-
+#kakaku th {
+	background-color:rgb(205, 92, 92);
+	border: 1px solid #2f2f2f;
+	color:white;
+}
+#sonota{border-top: 1px solid red;}
+#sonota h2{color: blue;}
 td {
 	text-align: left;
 	border: 1px solid #2f2f2f;
@@ -634,6 +651,8 @@ font-size: 15px;
 	display: table-cell;
 		vertical-align: middle;
 		text-align: center;
+}
+a {color: green;
 }
 
 .tel {
