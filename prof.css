@@ -8,10 +8,22 @@ font-size: 14px;
 
 
 /* common */
-
-
+#toiawase-tempo{color: rgb(205, 92, 92);
+}
+#toiawase-tempo a{color: rgb(205, 92, 92);}
+#toiawase a{color: green;}
+#tempo-plas th{background-color: indianred}
+#tempo-plas button{background-color: indianred}
+#jimu{color: rgb(205, 92, 92);
+border-top: 1px solid #aa8260;
+}
+#toiawase-syumi{color: orange;
+}
+#toiawase-syumi a{color: orange;}
+#syumi-plas th{background-color: orange;}
 #kakaku{  border-top: 1px solid red;}
-
+#top h1 {color: orange;}
+#top {border-top: 1px solid #aa8260;}
 #jire{  border-top: 1px solid skyblue;}
 #gaiyo{border-top: 1px solid #aa8260;
 }
