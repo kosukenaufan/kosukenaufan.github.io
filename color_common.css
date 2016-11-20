@@ -21,7 +21,16 @@ font-size: 14px;
 }
 #toiawase a {color: green;}
 #kakaku{  border-top: 1px solid red;}
+button{background-color: limegreen;
+color: white;
+-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+		box-shadow: 2px 2px 3px 1px #666;
+	     -moz-box-shadow: 2px 2px 3px 1px #666;
+	     -webkit-box-shadow: 2px 2px 3px 1px #666;
 
+}
 #jire{  border-top: 1px solid skyblue;}
 #gaiyo{border-top: 1px solid #aa8260;
 }
