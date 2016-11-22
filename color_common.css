@@ -207,12 +207,7 @@ dl {
 	width:616px;
 }
 
-dt {
-	float:left;
-	width:5px;
-	padding:5px 0 5px 0;
-	clear:both;
-}
+
 
 dd {
 	margin-left:5px;
@@ -615,12 +610,6 @@ color: black;}
 /*******************
 Theater list-inline
 *******************/
-#wrapper {
-
-	max-width: 990px;
-
-
-}
 
 .block {
 	width: 100%;
