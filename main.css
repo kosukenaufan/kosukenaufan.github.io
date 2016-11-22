@@ -10,16 +10,6 @@ a img {
   transition: all 0.4s;
 }
 
-hr {
-  border-color: #517077;
-  border-width: 2px;
-  max-width: 100px;
-  margin-bottom: 50px;
-}
-
-hr.light {
-  border-color: black;
-}
 
 .hidden {
   display: none;
@@ -388,11 +378,7 @@ Portfolio
 /******************
 Desktop Frame
 ******************/
-.desktop {
-  width: 90%;
-  max-width: 480px;
-  position: relative;
-}
+
 
 .desktop a:hover img {
   opacity: 0.7;

@@ -117,17 +117,7 @@ color: white;
 	padding-bottom:5px;
 }
 .name a{color: darkorange;}
-dl.cautionBlock dt {
-  clear: left;
-  float: left;
-  margin:0px;
-  width: 10px;
-  padding-left: 5px;
-  color: #000;
-	line-height:8px;
-	font-size:11px;
-	color:#FF0000;
-}
+
 .logo {
 	padding-top: 50px;
 	width: 100%;
@@ -141,13 +131,7 @@ dl.cautionBlock dt {
 }
 a:hover {text-decoration: none;}
 a:hover{color:green;}
-dl.cautionBlock dd {
-  /*margin-bottom: 1px;*/
-  margin-left: 1em;
-	line-height:8px;
-	font-size:11px;
-	color:#FF0000;
-}
+
 span{color: burlywood}
 
 #titleblock{
@@ -221,17 +205,7 @@ dl {
 	width:616px;
 }
 
-dt {
-	float:left;
-	width:5px;
-	padding:5px 0 5px 0;
-	clear:both;
-}
 
-dd {
-	margin-left:5px;
-	padding:5px 5px 5px 10px;
-}
 
 #areablock{
 	width:100%;
@@ -284,9 +258,8 @@ th {
 }
 
 td {
-	padding: 0.3em 0.5em;
+
 	vertical-align:top;
-width: 100px;
 }
 
 .t_left{
@@ -611,17 +584,9 @@ position: relative;
   color: red;
 }
 
-.contents img {
-  padding-top: 30px;
-  width: 90%;
-}
 
-.yokoku a {
-  padding-left: 150px;
-font-size:20px;
-color:red;
 
-}
+
 .sample1{border-bottom:solid 1px;
 color: black;}
 .display-block {
@@ -635,12 +600,6 @@ color: black;}
 /*******************
 Theater list-inline
 *******************/
-#wrapper {
-	width: 90%;
-	max-width: 990px;
-	text-align: left;
-	margin: 0 auto;
-}
 
 .block {
 	width: 100%;
@@ -648,14 +607,9 @@ Theater list-inline
 
 #wrapper table {
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+
 }
-hr{color: red;
-	border-color: #517077;
-  border-width: 2px;
-  max-width: 100px;
-}
+
 .name {
 	width: 20%;
 font-size: 15px;
