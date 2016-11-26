@@ -8,6 +8,9 @@ font-size: 14px;
 
 
 /* common */
+#kiji{color: black;
+border-top: 1px solid #aa8260;
+}
 .osusume span {color: orange;
 text-decoration: underline;}
 .osusume  {padding-left: 20%;
@@ -86,6 +89,10 @@ color: green;
 }
 .icon-content a{
 color: green;}
+.icon-content2 a{
+font-size: 40px;
+color: black;
+}
 .pt10{
 	padding-top:10px;
 }
