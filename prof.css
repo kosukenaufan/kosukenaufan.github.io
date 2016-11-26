@@ -10,6 +10,9 @@ font-size: 14px;
 #kiji{color: black;
 border-top: 1px solid #aa8260;
 }
+#iro{color: darkslategray;
+border-top: 1px solid #aa8260;
+}
 .osusume span {color: orange;
 text-decoration: underline;}
 .osusume  {padding-left: 20%;
@@ -116,6 +119,10 @@ margin: 10px 0;
 	     -webkit-box-shadow: 2px 2px 3px 1px #666;
 
 }
+.nagare h2{color: darkslategray;}
+#syasin{width: 60%;
+border: 1px #aa8260 solid;}
+#word{border: 1px #aa8260 solid;}
 #caution{
 	width:656px;
 	margin:0 auto;
