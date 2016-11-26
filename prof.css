@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 /* base */
-
 #myNavbar li{
 font-size: 14px;
 }
@@ -70,8 +69,11 @@ color:seagreen;}
 }
 #jire4{background-color: lavenderblush;}
 .paypal-button {
+	padding: 5px;
+}
+
+.paypal-button input {
 	vertical-align: middle;
-	padding: 5px 0;
 }
 #jire7{background-color: lavenderblush;}
 #pc_mobile ul{
@@ -105,6 +107,7 @@ color: black;
 }
 button{background-color: limegreen;
 color: white;
+margin: 10px 0;
 -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
