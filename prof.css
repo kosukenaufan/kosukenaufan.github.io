@@ -69,6 +69,10 @@ color:seagreen;}
 #jire10 a{ color: indianred;
 }
 #jire4{background-color: lavenderblush;}
+.paypal-button {
+	vertical-align: middle;
+	padding: 5px 0;
+}
 #jire7{background-color: lavenderblush;}
 #pc_mobile ul{
 	margin:0;
