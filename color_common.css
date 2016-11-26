@@ -2,6 +2,8 @@
 
 /* base */
 
+
+
 #myNavbar li{
 font-size: 14px;
 }
@@ -14,7 +16,11 @@ font-size: 14px;
 	max-width: 400px;
 	margin-bottom: 30px;
 }
-
+.osusume{padding-left: 3%;}
+.osusume span {color: orange;
+text-decoration: underline;}
+.osusume2{padding-right: 3%;}
+.osusume2 span {color: orange;}
 #rogo h1 {
 	margin: 20px 0;
 	color: #aa8260;

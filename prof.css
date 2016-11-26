@@ -8,6 +8,17 @@ font-size: 14px;
 
 
 /* common */
+.osusume span {color: orange;
+text-decoration: underline;}
+.osusume  {padding-left: 20%;
+}
+.osusume3{padding-left: 3%;}
+.osusume3 span {color: orange;
+text-decoration: underline;}
+.osusume span span {
+text-decoration: none;}
+.osusume2{padding-right: 3%;}
+.osusume2 span {color: orange;}
 #toiawase-tempo{color: rgb(205, 92, 92);
 }
 #toiawase-tempo a{color: rgb(205, 92, 92);}
