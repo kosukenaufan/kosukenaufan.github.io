@@ -383,7 +383,7 @@ color: black;
 }
 
 .sub-title {
-  width: 902px;
+  width: 750px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 30px;
@@ -454,15 +454,16 @@ p{
 font-size: 16px;
 }
 .sub-title a {
-  color: rgb(205, 92, 92);
-  font-size: 18px;
+  color: #aa8260;
+  font-size: 16px;
 }
+.profbutton{padding-left: 5%;}
+.profbutton2{padding-left: 4%;}
 .col-md-5{
 color: cornflowerblue;
 }
 .sub-title a:hover {
-  color: white;
-text-decoration: none;
+text-decoration: underline;
 }
 /* centered navbar menu */
 @media (min-width: 768px) {
