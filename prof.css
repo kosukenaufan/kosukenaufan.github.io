@@ -13,6 +13,9 @@ border-top: 1px solid #aa8260;
 #iro{color: darkslategray;
 border-top: 1px solid #aa8260;
 }
+#iro2{
+border-top: 1px solid #aa8260;
+}
 .osusume span {color: orange;
 text-decoration: underline;}
 .osusume  {padding-left: 20%;
@@ -373,6 +376,7 @@ th {
 	color:white;
 }
 #sonota{border-top: 1px solid red;}
+#sonota2{border-top: 1px solid #aa8260;}
 #sonota h2{color: blue;}
 td {
 	text-align: left;
