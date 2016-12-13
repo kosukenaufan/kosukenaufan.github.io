@@ -190,17 +190,17 @@ dl.cautionBlock dd {
 span{font-size: 25px;
 background-color: blanchedalmond}
 #kiji img{width:150px;
-margin-left: 50px;}
+}
 #noki img{width:140px;
-margin-left: 55px;}
+}
 #tyui img{width:360px;
-margin-left: 55px;}
+}
 #api img{width:360px;
-margin-left: 55px;}
-#kiji p{margin-left: 70px;}
-#noki p{margin-left: 70px;}
-#tyui p{margin-left: 70px;}
-#api p{margin-left: 70px;}
+}
+#kiji p{margin-left: 20px;}
+#noki p{margin-left: 20px;}
+#tyui p{margin-left: 20px;}
+#api p{margin-left: 20px;}
 #titleblock{
 	width:660px;
 	padding-top:20px;
@@ -583,7 +583,7 @@ position: relative;
 /* Footer */
 #footer {
   color: rgb(205, 92, 92);
-  border-top: 1px solid rgb(205, 92, 92);
+  border-top: 1px dotted rgb(205, 92, 92);
   margin-top: 20px;
   padding: 10px 0 20px;
 }
