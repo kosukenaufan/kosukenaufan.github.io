@@ -41,7 +41,7 @@ color: white;
 }
 
 .gradation {
-	margin-top: 50px;
+	margin-top: 130px;
 	position:relative;
 }
 
@@ -439,9 +439,11 @@ background-color: orange !important;
 }
 .sub-title {
 	padding-top: 50px;
-
 	margin-bottom: -50px;
-
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 530;
 }
 
 @media (max-width:767px) {
