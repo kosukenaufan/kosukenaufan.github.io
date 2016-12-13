@@ -1,0 +1,741 @@
+@charset "utf-8";
+
+/* base */
+
+
+
+#myNavbar li{
+font-size: 14px;
+}
+
+#sub1{background-color:honeydew;}
+#sub1 a:hover{color:silver;}
+#sub2{background-color: whitesmoke;}
+/* common */
+.logo {
+	padding-top: 30px;
+	width: 100%;
+	max-width: 1100px;
+}
+.osusume{padding-left: 3%;}
+.osusume span {color: orange;
+text-decoration: underline;}
+.osusume2{padding-right: 3%;}
+.osusume2 span {color: orange;}
+#rogo h1 {
+
+	color: #aa8260;
+}
+#rogo img{width: 100%}
+#toiawase a {color: green;}
+#kakaku{  border-top: 1px solid red;}
+button{background-color: limegreen;
+color: white;
+-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+		box-shadow: 2px 2px 3px 1px #666;
+	     -moz-box-shadow: 2px 2px 3px 1px #666;
+	     -webkit-box-shadow: 2px 2px 3px 1px #666;
+
+}
+
+.gradation {
+	margin-top: 50px;
+	position:relative;
+}
+
+.gradation:after {
+  content:'';
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(40deg, rgba(0,139,139,.3), rgba(255,246,108,.5), rgba(0,139,139,.3));
+  background-size: 600% 600%;
+  animation: AnimationName 10s ease infinite;
+  z-index: 2;
+}
+
+
+/** .img{
+ 	margin-top: 40px;
+  width: 1000px;
+  height: 300px;
+  background: url(kijidaiko.svg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+.gradation{
+margin-top: 40px;
+  width: 1000px;
+  height: 300px;
+  background: linear-gradient(45deg, rgba(108,184,255,08), rgba(255,246,108,.8), rgba(255,163,108,.8));
+  background-size: 600% 600%;
+  animation: AnimationName 10s ease infinite;
+  position: relative;
+  z-index: 2;
+}**/
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#jire{  border-top: 1px solid skyblue;}
+#gaiyo{border-top: 1px solid #aa8260;
+}
+#jire h1{color: orange}
+#jire h3{ text-align: center}
+#jire2 a,h3{
+color:seagreen;}
+#jire8 a{
+color:seagreen;}
+#jire5 a,h3{
+color:seagreen;}
+#jire2 {background-color: honeydew;}
+#jire5{background-color: honeydew;}
+#pc_mobile{
+	width: 435px;
+}
+#jire3 h3,a{ color: orange;
+}
+#jire9 a{ color: orange;
+}
+#jire6 h3,a{ color: orange;
+}
+#jire3{background-color: papayawhip;}
+#jire6{background-color: papayawhip;}
+#jire4 a,h3{ color: indianred;
+}
+#jire7 h3{ color: indianred;
+}
+#jire10 a{ color: indianred;
+}
+#jire4{background-color: lavenderblush;}
+#jire7{background-color: lavenderblush;}
+#pc_mobile ul{
+
+	padding:0;
+}
+#toiawase h1{color: green;}
+#pc_mobile ul li{
+	float:left;
+	list-style-type:none;
+	padding-right:10px;
+}
+#toiawase{border-top: 1px solid palegreen;
+
+}
+.icon-content{
+font-size: 40px;
+color: green;
+}
+.icon-content a{
+color: green;}
+.pt10{
+	padding-top:10px;
+}
+#gaiyo h1{color: #aa8260;
+
+}
+#caution{
+	width:656px;
+
+	border:2px #FF0000 solid;
+	background-color:#FFFFFF;
+}
+
+#caution_title{
+	width:650px;
+
+	text-align:center;
+	color:black;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px;
+}
+
+#caution_list{
+	width:650px;
+
+}
+
+.cautionBlock{
+	padding-bottom:5px;
+}
+.name a{color: darkorange;}
+dl.cautionBlock dt {
+  clear: left;
+  float: left;
+  margin:0px;
+  width: 10px;
+  padding-left: 5px;
+  color: #000;
+	line-height:8px;
+	font-size:11px;
+	color:#FF0000;
+}
+a:hover {text-decoration: none;}
+#jire3 a:hover{color:orange;}
+dl.cautionBlock dd {
+  /*margin-bottom: 1px;*/
+  margin-left: 1em;
+	line-height:8px;
+	font-size:11px;
+	color:#FF0000;
+}
+span{font-size: 25px;
+background-color: blanchedalmond}
+#kiji img{width:150px;
+margin-left: 50px;}
+#noki img{width:140px;
+margin-left: 55px;}
+#tyui img{width:360px;
+margin-left: 55px;}
+#api img{width:360px;
+margin-left: 55px;}
+#kiji p{margin-left: 70px;}
+#noki p{margin-left: 70px;}
+#tyui p{margin-left: 70px;}
+#api p{margin-left: 70px;}
+#titleblock{
+	width:660px;
+	padding-top:20px;
+	margin:0 auto;
+}
+
+h3{color: seagreen}
+#movie_title{
+	width:660px;
+	text-align:center;
+	position: relative;
+}
+
+
+#rating{
+	float:right;
+	padding-top:10px;
+}
+
+
+/*==========================================================================================
+week_theater
+============================================================================================*/
+
+
+
+a.calendar_link:link		{color:#555555; text-decoration:none;}
+a.calendar_link:visited	{color:#555555; text-decoration:none;}
+
+
+
+
+#mv_weekbox{
+
+	padding:0px;
+	width:616px;
+	}
+
+
+
+
+#karendar a:link,#karendar a:visited {
+	text-decoration:none;
+	}
+
+
+
+.youbi {
+	font-size: 12px;
+	color: #555555;
+}
+
+.mj04{
+	padding-top:5px;
+}
+
+h2{
+	font-weight:bold;
+
+	font-size:20px;
+}
+
+
+dl {
+	width:616px;
+}
+
+
+
+dd {
+
+	padding:5px 5px 5px 10px;
+}
+
+#areablock{
+	width:100%;
+	padding-top:40px;
+
+}
+
+#areablock ul{
+
+	padding:0;
+	text-align: center;
+}
+
+#areablock ul li{
+	display: inline-block;
+	list-style-type:none;
+}
+
+
+.block{
+	width:900px;
+	padding-top:40px;
+	margin:0 auto;}
+
+h3{
+	font-weight:bold;
+	font-size:18px;
+	padding-bottom:5px;
+}
+
+
+table {
+	width:900px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0.3em 0 10px;
+	} * html table {
+	margin: 1.6em 0;
+	} *:first-child+html table {
+	margin: 0;
+}
+
+
+th {
+	font-weight:bold;
+	padding: 0.3em 0.5em;
+	text-align: center;
+	vertical-align:top;
+}
+
+td {
+	padding: 0.3em 0.5em;
+	vertical-align:top;
+width: 100px;
+}
+
+.t_left{
+	text-align:left;
+}
+
+.t_center{
+	text-align:center;
+}
+
+
+.w310{
+	width:310px;
+}
+
+.w100{
+	width:100px;
+}
+
+.w40{
+	width:40px;
+}
+
+
+.w290{
+	width:290px;
+}
+
+#fortop{
+	width:100%;
+
+}
+
+
+#bottom_logo{
+	width:200px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+
+/*==========================================================================================
+popup
+============================================================================================*/
+
+#sample_block{
+	width: 650px;
+	margin: 0 auto;
+	padding-top:6px;
+}
+
+#sample_wrapper {
+	text-align:left;
+	padding: 0px;
+	width: 650px;
+
+}
+
+@charset "utf-8";
+
+html, body {
+
+	background-image: url("../../../images/bg_black.gif");
+	background-position: top;
+}
+
+
+th {
+	background-color: rgb(205, 92, 92);
+	border: 1px solid #2f2f2f;
+	color:white;
+}
+
+td {
+	text-align: left;
+	border: 1px solid #2f2f2f;
+
+}
+
+td a:link		{text-decoration:none;}
+td a:visited	{text-decoration:none}
+
+
+
+
+/* Navigation bar */
+
+.navbar-default {
+  border-radius: 0px;
+	height: 30px;
+}
+
+
+.navbar-default .navbar-nav li a {
+color: black;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus,
+ {
+  color: silver;
+background-color: orange;
+}
+
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus, {
+color: red !important;
+background-color: orange !important;
+}
+.sub-title {
+	padding-top: 50px;
+
+	margin-bottom: -50px;
+
+}
+
+@media (max-width:767px) {
+  .sub-title .list-inline>li {
+    display: block;
+  }
+}
+
+.modal-content,
+.modal-body,
+#imagepreview {
+  width:1000px;
+}
+
+.modal-dialog {
+  width: 1000px;
+
+  margin-top: 200px;
+}
+
+@media (max-width: 1000px) {
+  .modal-dialog,
+  .modal-content,
+  .modal-body,
+  #imagepreview {
+    width: 100% !important;
+  }
+}
+
+.col-sm-9{
+padding-top: 50px;
+font-size: 16px;
+}
+.col-sm-9 a{
+color: black;
+}
+
+.row {
+  margin-bottom: 30px;
+
+}
+
+.midashi {
+  background-color:black;
+color:rgb(205, 92, 92);
+width:230px;
+
+font-size: 23px;
+}
+#mottoshiri .row {
+  margin: 0;
+ margin-bottom: 8px;
+}
+
+
+#koushinh4 {
+color:red;
+}
+h4{
+color: black;
+}
+p{
+font-size: 16px;
+}
+.sub-title a {
+color: black;
+font-size: 16px;
+display: block;
+height: 40px;
+display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+ -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+ justify-content: center;
+}
+.profbutton{padding-left: 5%;}
+.profbutton2{padding-left: 4%;}
+.profbutton3{padding-left: 10%;}
+.col-md-5{
+color: cornflowerblue;
+}
+.sub-title a:hover {
+color: white;
+text-decoration: none;
+}
+
+/* centered navbar menu */
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: yellow;
+}
+
+/* Sidebar */
+.rakuten table,
+ {
+  width:100%;
+  display: block;
+
+}
+
+/* #left-sidebar .amazon iframe {
+  width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+
+.text-ad {
+  border: solid 0.1px white;
+  margin-bottom: 15px;
+
+}
+.text-ad a {
+  color: white;
+  padding: 5px;
+  display: block;
+}
+
+
+
+/* Poster */
+#poster {
+position: relative;
+}
+
+/* Footer */
+#footer {
+  color: rgb(205, 92, 92);
+  border-top: 1px solid rgb(205, 92, 92);
+  margin-top: 20px;
+  padding: 10px 0 20px;
+}
+
+/* Contents */
+.contents {
+  background:
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.7)
+    ),
+    /* your image */
+    url("image/rogue-one-poster.jpg");
+  background-size: cover;
+  background-position: center top;
+  padding: 20px;
+  filter: alpha(opacity=60);
+ -ms-filter: "alpha(opacity=60)";
+   -khtml-opacity: 0.6;
+   -moz-opacity: 0.6;
+}
+
+.background2{
+  background:
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.7)
+    ),
+    /* your image */
+    url("image/rogue-one-poster2.jpg");
+    background-size: cover;
+    background-position: center center;
+    filter: alpha(opacity=60);
+   -ms-filter: "alpha(opacity=60)";
+     -khtml-opacity: 0.6;
+     -moz-opacity: 0.6;f
+}
+
+.contents h1 {
+  margin-bottom: 30px;
+  color:sandybrown;
+  font-size:2.5em;
+}
+
+.contents h2 {
+  margin-bottom: 20px;
+  color:indianred;
+  font-size:2em;
+}
+
+.contents h3 {
+  margin-bottom: 20px;
+  color:indianred;
+  font-size:1.5em;
+}
+
+.contents p span {
+  color:red;
+}
+
+.contents p span a {
+  text-decoration: none;
+  color: red;
+}
+
+
+.yokoku a {
+  padding-left: 150px;
+font-size:20px;
+color:red;
+
+}
+.sample1{border-bottom:solid 1px;
+color: black;}
+.display-block {
+display: block;
+}
+.display-block a {text-decoration: none;
+color: black;}
+
+
+
+/*******************
+Theater list-inline
+*******************/
+
+.block {
+	width: 100%;
+}
+
+#wrapper table {
+	width: 100%;
+
+}
+hr{color: red;
+	border-color: #517077;
+  border-width: 2px;
+  max-width: 100px;
+}
+.name {
+	width: 20%;
+font-size: 15px;
+	text-align: center;
+	display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+}
+
+.tel {
+	width: 20%;
+	text-align: center;
+font-size: 15px;
+display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.schedule {
+	text-align: center;
+	width: 20%;
+font-size: 15px;
+display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.toroku
+{
+	text-align: center;
+	width: 20%;
+font-size: 15px;
+}
+.ref {
+	width: 15%;
+}
+
+@media (max-width: 991px) {
+	.name {
+		width: 50%;
+	}
+
+	.tel {
+		display: none;
+	}
+
+	.schedule {
+		width: 50%;
+	}
+
+	.ref {
+		display: none;
+	}
+
+}
