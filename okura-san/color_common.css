@@ -27,7 +27,7 @@ text-decoration: underline;}
 	color: #aa8260;
 }
 #rogo img{width: 100%}
-#toiawase a {color: green;}
+#toiawase a {color: black;}
 #kakaku{  border-top: 1px solid red;}
 button{background-color: limegreen;
 color: white;
@@ -39,12 +39,29 @@ color: white;
 	     -webkit-box-shadow: 2px 2px 3px 1px #666;
 
 }
+#report{
+margin-top: -1px;
+}
+#prof img{margin-top: 130px;
 
+}
+.kokonara{width: 20%;
+margin-top: -130px;}
+#profnaiyo {margin-top: 140px;
+}
 .gradation {
 	margin-top: 130px;
 	position:relative;
 }
 
+#right-sidebar{
+margin-top: 130px;
+}
+
+.gradation2 {
+margin-top: -100px;
+	position:relative;
+}
 .gradation:after {
   content:'';
   position: absolute;
@@ -84,57 +101,36 @@ margin-top: 40px;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-#jire{  border-top: 1px solid skyblue;}
-#gaiyo{border-top: 1px solid #aa8260;
-}
-#jire h1{color: orange}
-#jire h3{ text-align: center}
-#jire2 a,h3{
-color:seagreen;}
-#jire8 a{
-color:seagreen;}
-#jire5 a,h3{
-color:seagreen;}
-#jire2 {background-color: honeydew;}
-#jire5{background-color: honeydew;}
+
 #pc_mobile{
 	width: 435px;
 }
-#jire3 h3,a{ color: orange;
+
 }
 #jire9 a{ color: orange;
 }
-#jire6 h3,a{ color: orange;
+#profnaiyo img{
+width: 100%;
+height: 10px;
 }
-#jire3{background-color: papayawhip;}
-#jire6{background-color: papayawhip;}
-#jire4 a,h3{ color: indianred;
-}
-#jire7 h3{ color: indianred;
-}
-#jire10 a{ color: indianred;
-}
-#jire4{background-color: lavenderblush;}
-#jire7{background-color: lavenderblush;}
+h2,h3{color: lightsalmon;}
 #pc_mobile ul{
-
 	padding:0;
 }
-#toiawase h1{color: green;}
+#toiawase h1{color: black;}
 #pc_mobile ul li{
 	float:left;
 	list-style-type:none;
 	padding-right:10px;
 }
-#toiawase{border-top: 1px solid palegreen;
 
-}
 .icon-content{
 font-size: 40px;
-color: green;
+color: black;
 }
+
 .icon-content a{
-color: green;}
+color: black;}
 .pt10{
 	padding-top:10px;
 }
@@ -150,7 +146,6 @@ color: green;}
 
 #caution_title{
 	width:650px;
-
 	text-align:center;
 	color:black;
 	font-size:16px;
@@ -207,7 +202,7 @@ background-color: blanchedalmond}
 	margin:0 auto;
 }
 
-h3{color: seagreen}
+
 #movie_title{
 	width:660px;
 	text-align:center;
@@ -556,12 +551,12 @@ text-decoration: none;
 
 }
 
-/* #left-sidebar .amazon iframe {
+#left-sidebar .amazon iframe {
   width:100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-} */
+}
 
 
 .text-ad {
@@ -639,9 +634,7 @@ position: relative;
 }
 
 .contents h3 {
-  margin-bottom: 20px;
-  color:indianred;
-  font-size:1.5em;
+
 }
 
 .contents p span {
