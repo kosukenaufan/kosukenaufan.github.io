@@ -79,9 +79,20 @@ margin-top: -130px;}
 }
 #right-sidebar{
 margin-top: 130px;
-width: 16%;
-}
 
+}
+#right-sidebar2{
+
+
+}
+#right-sidebar .coconala-widget {
+
+width: 100%;
+}
+#right-sidebar2 .coconala-widget {
+
+width: 100%;
+}
 .gradation:after {
   content:'';
   position: absolute;
@@ -593,7 +604,7 @@ display: block;
   margin-right: auto;
 }
 
-
+.coconala-widget
 .text-ad {
   border: solid 0.1px white;
   margin-bottom: 15px;
