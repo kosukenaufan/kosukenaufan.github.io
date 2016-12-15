@@ -537,6 +537,17 @@ display: -webkit-flex;
 .col-md-5{
 color: cornflowerblue;
 }
+body{
+  background: linear-gradient(30deg, white, rgba(127,225,212,.1), rgba(135,206,235,.1));
+  background-size: 600% 600%;
+  animation: AnimationName 5s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 .sub-title a:hover {
 color: silver;
 text-decoration: none;
@@ -604,7 +615,7 @@ position: relative;
 #footer {
   color: rgb(205, 92, 92);
   border-top: 1px dotted rgb(205, 92, 92);
-  margin-top: 20px;
+
   padding: 10px 0 20px;
 }
 
