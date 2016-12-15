@@ -23,26 +23,34 @@ text-decoration: underline;}
 .osusume2{padding-right: 3%;}
 .osusume2 span {color: orange;}
 #rogo h1 {
-
 	color: #aa8260;
 }
-#rogo img{width: 100%}
-#toiawase a {color: black;}
-#kakaku{  border-top: 1px solid red;}
-button{background-color: limegreen;
-color: white;
--moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-		box-shadow: 2px 2px 3px 1px #666;
-	     -moz-box-shadow: 2px 2px 3px 1px #666;
-	     -webkit-box-shadow: 2px 2px 3px 1px #666;
 
+ul#nav5 li a {
+    float: left;
+    margin-right: 60px;
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    font-weight: bold;
 }
+ul#nav5 li a:hover {
+    text-shadow: green 0px 0px 20px;
+    color: orange;
+}
+
+#rogo img{width: 100%}
+#toiawase a {color: honeydew;
+	-webkit-text-stroke-color: #000;
+	-webkit-text-stroke-width: 1px;}
+#kakaku{  border-top: 1px solid red;}
+
 #report{
 margin-top: -1px;
 }
 #prof img{margin-top: 130px;
+
+}
+#prof a:hover img{opacity: 0.9;
 
 }
 .kokonara{width: 20%;
@@ -53,15 +61,26 @@ margin-top: -130px;}
 	margin-top: 130px;
 	position:relative;
 }
+.gradation2 {
+	position:relative;
+}
 
+.gradation2:after{
+	content:'';
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(40deg, rgba(0,139,139,.3), rgba(255,246,108,.5), rgba(0,139,139,.3));
+  background-size: 600% 600%;
+  animation: AnimationName 10s ease infinite;
+  z-index: 2;
+}
 #right-sidebar{
 margin-top: 130px;
 }
 
-.gradation2 {
-margin-top: -100px;
-	position:relative;
-}
 .gradation:after {
   content:'';
   position: absolute;
@@ -107,8 +126,7 @@ margin-top: 40px;
 }
 
 }
-#jire9 a{ color: orange;
-}
+
 #profnaiyo img{
 width: 100%;
 height: 10px;
@@ -117,7 +135,9 @@ h2,h3{color: lightsalmon;}
 #pc_mobile ul{
 	padding:0;
 }
-#toiawase h1{color: black;}
+#toiawase h1{color: honeydew;
+	-webkit-text-stroke-color: #000;
+	-webkit-text-stroke-width: 1px;}
 #pc_mobile ul li{
 	float:left;
 	list-style-type:none;
@@ -417,7 +437,7 @@ td a:visited	{text-decoration:none}
 
 
 .navbar-default .navbar-nav li a {
-color: black;
+color: dimgray;
 }
 
 .navbar-default .navbar-nav li a:hover,
@@ -427,11 +447,7 @@ color: black;
 background-color: orange;
 }
 
-.navbar-default .nav > li.active > a,
-.navbar-default .nav > li.active > a:focus, {
-color: red !important;
-background-color: orange !important;
-}
+
 .sub-title {
 	padding-top: 50px;
 	margin-bottom: -50px;
@@ -522,10 +538,16 @@ display: -webkit-flex;
 color: cornflowerblue;
 }
 .sub-title a:hover {
-color: white;
+color: silver;
 text-decoration: none;
 }
-
+.button img{
+display: block;
+  margin: 0 auto;
+	box-shadow: 0 5px 10px rgba(0,0,0, .5); /* シャドウ */
+	}
+.button a{display: block;}
+.button a:hover img{opacity: 0.7;}
 /* centered navbar menu */
 @media (min-width: 768px) {
     .navbar .navbar-nav {
@@ -540,7 +562,8 @@ text-decoration: none;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: yellow;
+  background-color: khaki;
+
 }
 
 /* Sidebar */
