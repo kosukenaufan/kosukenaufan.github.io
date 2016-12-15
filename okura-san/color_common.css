@@ -74,7 +74,7 @@ margin-top: -130px;}
 	height: 100%;
 	background: linear-gradient(40deg, rgba(0,139,139,.3), rgba(255,246,108,.5), rgba(0,139,139,.3));
   background-size: 600% 600%;
-  animation: AnimationName 10s ease infinite;
+/**   animation: AnimationName 10s ease infinite;**/
   z-index: 2;
 }
 #right-sidebar{
@@ -96,7 +96,7 @@ width: 16%;
 	height: 100%;
 	background: linear-gradient(40deg, rgba(0,139,139,.3), rgba(255,246,108,.5), rgba(0,139,139,.3));
   background-size: 600% 600%;
-  animation: AnimationName 10s ease infinite;
+/**   animation: AnimationName 10s ease infinite;**/
   z-index: 2;
 }
 
@@ -119,13 +119,13 @@ margin-top: 40px;
   animation: AnimationName 10s ease infinite;
   position: relative;
   z-index: 2;
-}**/
+}
 
 @keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
-}
+}**/
 
 #pc_mobile{
 	width: 435px;
@@ -212,7 +212,10 @@ span{font-size: 25px;
 background-color: blanchedalmond}
 #kiji img{width:150px;
 }
+
 #noki img{width:140px;
+}
+#noki, #kiji,#tyui,#api,#profnaiyo{background-color:  white;
 }
 #tyui img{width:360px;
 }
