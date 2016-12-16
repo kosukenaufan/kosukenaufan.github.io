@@ -58,7 +58,7 @@ margin-top: -130px;}
 #profnaiyo {margin-top: 140px;
 }
 .gradation {
-	margin-top: 130px;
+
 	position:relative;
 }
 .gradation2 {
@@ -385,7 +385,10 @@ width: 100px;
 
 }
 
-
+#logo{
+margin-top: 130px;
+width: 40%;
+}
 #bottom_logo{
 	width:200px;
 	margin:0 auto;
@@ -458,12 +461,14 @@ background-color: orange;
 
 
 .sub-title {
-	padding-top: 50px;
+	
 	margin-bottom: -50px;
 	position: fixed;
 	right: 0;
 	left: 0;
 	z-index: 530;
+    font-weight: bold;
+   color: cornflowerblue;
 }
 
 @media (max-width:767px) {
@@ -528,8 +533,11 @@ color: black;
 p{
 font-size: 16px;
 }
+.navbar-brand{
+font-size: 26px;
+}
 .sub-title a {
-color: black;
+color: darkcyan;
 font-size: 16px;
 display: block;
 height: 40px;
