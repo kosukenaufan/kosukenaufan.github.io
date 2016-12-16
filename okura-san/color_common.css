@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* base */
+/* menu */
 
 
 
@@ -17,14 +17,7 @@ font-size: 14px;
 	width: 100%;
 	max-width: 1100px;
 }
-.osusume{padding-left: 3%;}
-.osusume span {color: orange;
-text-decoration: underline;}
-.osusume2{padding-right: 3%;}
-.osusume2 span {color: orange;}
-#rogo h1 {
-	color: #aa8260;
-}
+
 
 ul#nav5 li a {
     float: left;
@@ -39,54 +32,15 @@ ul#nav5 li a:hover {
 }
 
 #rogo img{width: 100%}
+
+
+
 #toiawase a {color: honeydew;
 	-webkit-text-stroke-color: #000;
 	-webkit-text-stroke-width: 1px;}
-#kakaku{  border-top: 1px solid red;}
 
-#report{
-margin-top: -1px;
-}
-#prof img{margin-top: 130px;
+/* contents */
 
-}
-#prof a:hover img{opacity: 0.9;
-
-}
-.kokonara{width: 20%;
-margin-top: -130px;}
-#profnaiyo {margin-top: 140px;
-}
-.gradation {
-
-	position:relative;
-}
-.gradation2 {
-	position:relative;
-}
-
-.gradation2:after{
-	content:'';
-  position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(40deg, rgba(0,139,139,.3), rgba(255,246,108,.5), rgba(0,139,139,.3));
-  background-size: 600% 600%;
-/**   animation: AnimationName 10s ease infinite;**/
-  z-index: 2;
-}
-#right-sidebar{
-margin-top: 130px;
-width: 16%;
-}
-
-
-#right-sidebar2 {
-
-width: 16%;
-}
 .gradation:after {
   content:'';
   position: absolute;
@@ -127,11 +81,45 @@ margin-top: 40px;
     100%{background-position:0% 50%}
 }**/
 
+
+#report{
+margin-top: -1px;
+}
+#prof img{margin-top: 130px;
+
+}
+#prof a:hover img{opacity: 0.9;
+
+}
+.kokonara{width: 20%;
+margin-top: -130px;}
+#profnaiyo {margin-top: 140px;
+}
+.gradation {
+	position:relative;
+}
+.gradation2 {
+	position:relative;
+}
+
+.gradation2:after{
+	content:'';
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(40deg, rgba(0,139,139,.3), rgba(255,246,108,.5), rgba(0,139,139,.3));
+  background-size: 600% 600%;
+/**   animation: AnimationName 10s ease infinite;**/
+  z-index: 2;
+}
+
+
 #pc_mobile{
 	width: 435px;
 }
 
-}
 
 #profnaiyo img{
 width: 100%;
@@ -200,7 +188,7 @@ dl.cautionBlock dt {
 	color:#FF0000;
 }
 a:hover {text-decoration: none;}
-#jire3 a:hover{color:orange;}
+
 dl.cautionBlock dd {
   /*margin-bottom: 1px;*/
   margin-left: 1em;
@@ -232,29 +220,11 @@ background-color: blanchedalmond}
 }
 
 
-#movie_title{
-	width:660px;
-	text-align:center;
-	position: relative;
-}
-
 
 #rating{
 	float:right;
 	padding-top:10px;
 }
-
-
-/*==========================================================================================
-week_theater
-============================================================================================*/
-
-
-
-a.calendar_link:link		{color:#555555; text-decoration:none;}
-a.calendar_link:visited	{color:#555555; text-decoration:none;}
-
-
 
 
 #mv_weekbox{
@@ -266,20 +236,8 @@ a.calendar_link:visited	{color:#555555; text-decoration:none;}
 
 
 
-#karendar a:link,#karendar a:visited {
-	text-decoration:none;
-	}
 
 
-
-.youbi {
-	font-size: 12px;
-	color: #555555;
-}
-
-.mj04{
-	padding-top:5px;
-}
 
 h2{
 	font-weight:bold;
@@ -288,40 +246,6 @@ h2{
 }
 
 
-dl {
-	width:616px;
-}
-
-
-
-dd {
-
-	padding:5px 5px 5px 10px;
-}
-
-#areablock{
-	width:100%;
-	padding-top:40px;
-
-}
-
-#areablock ul{
-
-	padding:0;
-	text-align: center;
-}
-
-#areablock ul li{
-	display: inline-block;
-	list-style-type:none;
-}
-
-
-.block{
-	width:900px;
-	padding-top:40px;
-	margin:0 auto;}
-
 h3{
 	font-weight:bold;
 	font-size:18px;
@@ -329,89 +253,13 @@ h3{
 }
 
 
-table {
-	width:900px;
-	border-collapse: collapse;
-	border-spacing: 0;
-	margin: 0.3em 0 10px;
-	} * html table {
-	margin: 1.6em 0;
-	} *:first-child+html table {
-	margin: 0;
-}
-
-
-th {
-	font-weight:bold;
-	padding: 0.3em 0.5em;
-	text-align: center;
-	vertical-align:top;
-}
-
-td {
-	padding: 0.3em 0.5em;
-	vertical-align:top;
-width: 100px;
-}
-
-.t_left{
-	text-align:left;
-}
-
-.t_center{
-	text-align:center;
-}
-
-
-.w310{
-	width:310px;
-}
-
-.w100{
-	width:100px;
-}
-
-.w40{
-	width:40px;
-}
-
-
-.w290{
-	width:290px;
-}
-
-#fortop{
-	width:100%;
-
-}
 
 #logo{
 margin-top: 130px;
 width: 40%;
 }
-#bottom_logo{
-	width:200px;
-	margin:0 auto;
-	padding-top:20px;
-}
 
 
-/*==========================================================================================
-popup
-============================================================================================*/
-
-#sample_block{
-	width: 650px;
-	margin: 0 auto;
-	padding-top:6px;
-}
-
-#sample_wrapper {
-	text-align:left;
-	padding: 0px;
-	width: 650px;
-
-}
 
 @charset "utf-8";
 
@@ -420,22 +268,6 @@ html, body {
 	background-image: url("../../../images/bg_black.gif");
 	background-position: top;
 }
-
-
-th {
-	background-color: rgb(205, 92, 92);
-	border: 1px solid #2f2f2f;
-	color:white;
-}
-
-td {
-	text-align: left;
-	border: 1px solid #2f2f2f;
-
-}
-
-td a:link		{text-decoration:none;}
-td a:visited	{text-decoration:none}
 
 
 
@@ -461,7 +293,7 @@ background-color: orange;
 
 
 .sub-title {
-	
+
 	margin-bottom: -50px;
 	position: fixed;
 	right: 0;
@@ -517,10 +349,6 @@ color:rgb(205, 92, 92);
 width:230px;
 
 font-size: 23px;
-}
-#mottoshiri .row {
-  margin: 0;
- margin-bottom: 8px;
 }
 
 
@@ -594,20 +422,7 @@ display: block;
 
 }
 
-/* Sidebar */
-.rakuten table,
- {
-  width:100%;
-  display: block;
 
-}
-
-#left-sidebar .amazon iframe {
-  width:100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .coconala-widget
 .text-ad {
@@ -621,20 +436,6 @@ display: block;
   display: block;
 }
 
-
-
-/* Poster */
-#poster {
-position: relative;
-}
-
-/* Footer */
-#footer {
-  color: rgb(205, 92, 92);
-  border-top: 1px dotted rgb(205, 92, 92);
-
-  padding: 10px 0 20px;
-}
 
 /* Contents */
 .contents {
@@ -698,12 +499,7 @@ position: relative;
 }
 
 
-.yokoku a {
-  padding-left: 150px;
-font-size:20px;
-color:red;
 
-}
 .sample1{border-bottom:solid 1px;
 color: black;}
 .display-block {
@@ -712,76 +508,40 @@ display: block;
 .display-block a {text-decoration: none;
 color: black;}
 
-
-
-/*******************
-Theater list-inline
-*******************/
-
 .block {
 	width: 100%;
 }
 
 #wrapper table {
 	width: 100%;
-
 }
 hr{color: red;
 	border-color: #517077;
   border-width: 2px;
   max-width: 100px;
 }
-.name {
-	width: 20%;
-font-size: 15px;
-	text-align: center;
-	display: table-cell;
-		vertical-align: middle;
-		text-align: center;
+
+@media {max-width: 991px}
+
+/* Footer */
+.rakuten table,
+ {
+  width:100%;
+  display: block;
 }
 
-.tel {
-	width: 20%;
-	text-align: center;
-font-size: 15px;
-display: table-cell;
-	vertical-align: middle;
-	text-align: center;
+#right-sidebar2 {
+width: 16%;
+}
+#right-sidebar {
+	margin-top:130px;
+	width:16%;
 }
 
-.schedule {
-	text-align: center;
-	width: 20%;
-font-size: 15px;
-display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-}
-.toroku
-{
-	text-align: center;
-	width: 20%;
-font-size: 15px;
-}
-.ref {
-	width: 15%;
-}
+/* Footer */
+#footer {
+  color: rgb(205, 92, 92);
+  border-top: 1px dotted rgb(205, 92, 92);
 
-@media (max-width: 991px) {
-	.name {
-		width: 50%;
-	}
-
-	.tel {
-		display: none;
-	}
-
-	.schedule {
-		width: 50%;
-	}
-
-	.ref {
-		display: none;
-	}
-
+  padding: 10px 0 20px;
 }
