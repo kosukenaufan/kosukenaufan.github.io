@@ -125,7 +125,8 @@ margin-top: -130px;}
 width: 100%;
 height: 10px;
 }
-h2,h3{color: lightsalmon;}
+h2{color: dimgray;}
+h3,span{color: lightsalmon;}
 #pc_mobile ul{
 	padding:0;
 }
@@ -196,8 +197,7 @@ dl.cautionBlock dd {
 	font-size:11px;
 	color:#FF0000;
 }
-span{font-size: 25px;
-background-color: blanchedalmond}
+span{color: }
 #kiji img{width:150px;
 }
 
