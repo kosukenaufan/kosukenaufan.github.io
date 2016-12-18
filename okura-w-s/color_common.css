@@ -95,6 +95,10 @@ margin-top: -1px;
 margin-top: -130px;}
 #profnaiyo {margin-top: 140px;
 }
+
+
+.red {color: red;}
+
 .gradation {
 	position:relative;
 }
@@ -127,6 +131,7 @@ height: 10px;
 }
 h2{color: dimgray;}
 h3,span{color: lightsalmon;}
+
 #pc_mobile ul{
 	padding:0;
 }
