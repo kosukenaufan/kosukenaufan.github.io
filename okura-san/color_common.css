@@ -1,0 +1,552 @@
+@charset "utf-8";
+
+/* menu */
+
+
+
+#myNavbar li{
+font-size: 14px;
+}
+
+#sub1{background-color:honeydew;}
+#sub1 a:hover{color:silver;}
+#sub2{background-color: whitesmoke;}
+/* common */
+.logo {
+	padding-top: 30px;
+	width: 100%;
+	max-width: 1100px;
+}
+
+
+ul#nav5 li a {
+    float: left;
+    margin-right: 60px;
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    font-weight: bold;
+}
+ul#nav5 li a:hover {
+    text-shadow: green 0px 0px 20px;
+    color: orange;
+}
+
+#rogo img{width: 100%}
+
+
+
+#toiawase a {color: honeydew;
+	-webkit-text-stroke-color: #000;
+	-webkit-text-stroke-width: 1px;}
+
+/* contents */
+
+.gradation:after {
+  content:'';
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(40deg, rgba(0,139,139,.3), rgba(255,246,108,.5), rgba(0,139,139,.3));
+  background-size: 600% 600%;
+/**   animation: AnimationName 10s ease infinite;**/
+  z-index: 2;
+}
+
+
+/** .img{
+ 	margin-top: 40px;
+  width: 1000px;
+  height: 300px;
+  background: url(kijidaiko.svg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+.gradation{
+margin-top: 40px;
+  width: 1000px;
+  height: 300px;
+  background: linear-gradient(45deg, rgba(108,184,255,08), rgba(255,246,108,.8), rgba(255,163,108,.8));
+  background-size: 600% 600%;
+  animation: AnimationName 10s ease infinite;
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}**/
+
+
+#report{
+margin-top: -1px;
+}
+#prof img{margin-top: 130px;
+
+}
+#prof a:hover img{opacity: 0.9;
+
+}
+.kokonara{width: 20%;
+margin-top: -130px;}
+#profnaiyo {margin-top: 140px;
+}
+
+
+.red {color: red;}
+
+.gradation {
+	position:relative;
+}
+.gradation2 {
+	position:relative;
+}
+
+.gradation2:after{
+	content:'';
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(40deg, rgba(0,139,139,.3), rgba(255,246,108,.5), rgba(0,139,139,.3));
+  background-size: 600% 600%;
+/**   animation: AnimationName 10s ease infinite;**/
+  z-index: 2;
+}
+
+
+#pc_mobile{
+	width: 435px;
+}
+
+
+#profnaiyo img{
+width: 100%;
+height: 10px;
+}
+h2{color: dimgray;}
+h3,span{color: lightsalmon;}
+
+#pc_mobile ul{
+	padding:0;
+}
+#toiawase h1{color: honeydew;
+	-webkit-text-stroke-color: #000;
+	-webkit-text-stroke-width: 1px;}
+#pc_mobile ul li{
+	float:left;
+	list-style-type:none;
+	padding-right:10px;
+}
+
+.icon-content{
+font-size: 40px;
+color: black;
+}
+
+.icon-content a{
+color: black;}
+.pt10{
+	padding-top:10px;
+}
+#gaiyo h1{color: #aa8260;
+
+}
+#caution{
+	width:656px;
+
+	border:2px #FF0000 solid;
+	background-color:#FFFFFF;
+}
+
+#caution_title{
+	width:650px;
+	text-align:center;
+	color:black;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px;
+}
+
+#caution_list{
+	width:650px;
+
+}
+
+.cautionBlock{
+	padding-bottom:5px;
+}
+.name a{color: darkorange;}
+dl.cautionBlock dt {
+  clear: left;
+  float: left;
+  margin:0px;
+  width: 10px;
+  padding-left: 5px;
+  color: #000;
+	line-height:8px;
+	font-size:11px;
+	color:#FF0000;
+}
+a:hover {text-decoration: none;}
+
+dl.cautionBlock dd {
+  /*margin-bottom: 1px;*/
+  margin-left: 1em;
+	line-height:8px;
+	font-size:11px;
+	color:#FF0000;
+}
+span{color: }
+#kiji img{width:150px;
+}
+
+#noki img{width:140px;
+}
+#noki, #kiji,#tyui,#api,#profnaiyo{background-color:  white;
+}
+#tyui img{width:360px;
+}
+#api img{width:360px;
+}
+#kiji p{margin-left: 20px;}
+#noki p{margin-left: 20px;}
+#tyui p{margin-left: 20px;}
+#api p{margin-left: 20px;}
+#titleblock{
+	width:660px;
+	padding-top:20px;
+	margin:0 auto;
+}
+
+
+
+#rating{
+	float:right;
+	padding-top:10px;
+}
+
+
+#mv_weekbox{
+
+	padding:0px;
+	width:616px;
+	}
+
+
+
+
+
+
+
+h2{
+	font-weight:bold;
+
+	font-size:20px;
+}
+
+
+h3{
+	font-weight:bold;
+	font-size:18px;
+	padding-bottom:5px;
+}
+
+
+
+#logo{
+margin-top: 130px;
+width: 40%;
+}
+
+
+
+@charset "utf-8";
+
+html, body {
+
+	background-image: url("../../../images/bg_black.gif");
+	background-position: top;
+}
+
+
+
+
+/* Navigation bar */
+
+.navbar-default {
+  border-radius: 0px;
+	height: 30px;
+}
+
+
+.navbar-default .navbar-nav li a {
+color: dimgray;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus,
+ {
+  color: silver;
+background-color: orange;
+}
+
+
+.sub-title {
+
+	margin-bottom: -50px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 530;
+    font-weight: bold;
+   color: cornflowerblue;
+}
+
+@media (max-width:767px) {
+  .sub-title .list-inline>li {
+    display: block;
+  }
+}
+
+.modal-content,
+.modal-body,
+#imagepreview {
+  width:1000px;
+}
+
+.modal-dialog {
+  width: 1000px;
+
+  margin-top: 200px;
+}
+
+@media (max-width: 1000px) {
+  .modal-dialog,
+  .modal-content,
+  .modal-body,
+  #imagepreview {
+    width: 100% !important;
+  }
+}
+
+.col-sm-9{
+padding-top: 50px;
+font-size: 16px;
+}
+.col-sm-9 a{
+color: black;
+}
+
+.row {
+  margin-bottom: 30px;
+
+}
+
+.midashi {
+  background-color:black;
+color:rgb(205, 92, 92);
+width:230px;
+
+font-size: 23px;
+}
+
+
+#koushinh4 {
+color:red;
+}
+h4{
+color: black;
+}
+p{
+font-size: 16px;
+}
+.navbar-brand{
+font-size: 26px;
+}
+.sub-title a {
+color: darkcyan;
+font-size: 16px;
+display: block;
+height: 40px;
+display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+ -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+ justify-content: center;
+}
+.profbutton{padding-left: 5%;}
+.profbutton2{padding-left: 4%;}
+.profbutton3{padding-left: 10%;}
+.col-md-5{
+color: cornflowerblue;
+}
+body{
+  background: linear-gradient(30deg, white, rgba(127,225,212,.1), rgba(135,206,235,.1));
+  background-size: 600% 600%;
+  animation: AnimationName 5s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.sub-title a:hover {
+color: silver;
+text-decoration: none;
+}
+.button img{
+display: block;
+  margin: 0 auto;
+	box-shadow: 0 5px 10px rgba(0,0,0, .5); /* シャドウ */
+	}
+.button a{display: block;}
+.button a:hover img{opacity: 0.7;}
+/* centered navbar menu */
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: khaki;
+
+}
+
+
+
+.coconala-widget
+.text-ad {
+  border: solid 0.1px white;
+  margin-bottom: 15px;
+
+}
+.text-ad a {
+  color: white;
+  padding: 5px;
+  display: block;
+}
+
+
+/* Contents */
+.contents {
+  background:
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.7)
+    ),
+    /* your image */
+    url("image/rogue-one-poster.jpg");
+  background-size: cover;
+  background-position: center top;
+  padding: 20px;
+  filter: alpha(opacity=60);
+ -ms-filter: "alpha(opacity=60)";
+   -khtml-opacity: 0.6;
+   -moz-opacity: 0.6;
+}
+
+.background2{
+  background:
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.7)
+    ),
+    /* your image */
+    url("image/rogue-one-poster2.jpg");
+    background-size: cover;
+    background-position: center center;
+    filter: alpha(opacity=60);
+   -ms-filter: "alpha(opacity=60)";
+     -khtml-opacity: 0.6;
+     -moz-opacity: 0.6;f
+}
+
+.contents h1 {
+  margin-bottom: 30px;
+  color:sandybrown;
+  font-size:2.5em;
+}
+
+.contents h2 {
+  margin-bottom: 20px;
+  color:indianred;
+  font-size:2em;
+}
+
+.contents h3 {
+
+}
+
+.contents p span {
+  color:red;
+}
+
+.contents p span a {
+  text-decoration: none;
+  color: red;
+}
+
+
+
+.sample1{border-bottom:solid 1px;
+color: black;}
+.display-block {
+display: block;
+}
+.display-block a {text-decoration: none;
+color: black;}
+
+.block {
+	width: 100%;
+}
+
+#wrapper table {
+	width: 100%;
+}
+hr{color: red;
+	border-color: #517077;
+  border-width: 2px;
+  max-width: 100px;
+}
+
+@media {max-width: 991px}
+
+/* Footer */
+.rakuten table,
+ {
+  width:100%;
+  display: block;
+}
+
+#right-sidebar2 {
+width: 16%;
+}
+#right-sidebar {
+	margin-top:130px;
+	width:16%;
+}
+
+/* Footer */
+#footer {
+  color: rgb(205, 92, 92);
+  border-top: 1px dotted rgb(205, 92, 92);
+
+  padding: 10px 0 20px;
+}
