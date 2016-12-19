@@ -26,6 +26,10 @@ ul#nav5 li a {
     -moz-transition: all 3s ease;
     font-weight: bold;
 }
+.collapse{
+background-color:;
+}
+
 ul#nav5 li a:hover {
     text-shadow: green 0px 0px 20px;
     color: orange;
@@ -163,6 +167,7 @@ color: black;}
 	border:2px #FF0000 solid;
 	background-color:#FFFFFF;
 }
+.navbar-header{background-color:;}
 
 #caution_title{
 	width:650px;
@@ -421,12 +426,10 @@ display: block;
         text-align: center;
     }
 }
-
+.collapse.in{background-color: white;}
 .navbar-default .navbar-toggle .icon-bar {
   background-color: khaki;
-
 }
-
 
 
 .coconala-widget
