@@ -168,7 +168,7 @@ a:hover {text-decoration: none;}
 a:hover{color:green;}
 
 span{color: burlywood}
-
+#staff{margin-top:-100px;}
 #titleblock{
 	width:660px;
 	padding-top:20px;
@@ -429,12 +429,7 @@ color: black;
   width:1000px;
 }
 
-.modal-dialog {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 200px;
-}
+
 
 @media (max-width: 1000px) {
   .modal-dialog,
