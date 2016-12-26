@@ -371,7 +371,14 @@ td a:active	{color:black; text-decoration:none;}
   border-radius: 0px;
 
 }
-
+.navbar-brand {
+  background: url("image/teasoup.svg") no-repeat left center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
+padding-left: 5px;
+padding-top: 10px;
+}
 
 
 .navbar-default .navbar-nav li a {
