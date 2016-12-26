@@ -77,7 +77,8 @@ color:seagreen;}
 .paypal-button {
 	padding: 5px;
 }
-
+#koibito{background-color: lavenderblush;
+color: palevioletred;}
 .paypal-button input {
 	vertical-align: middle;
 }
@@ -95,15 +96,25 @@ color:seagreen;}
 #toiawase{border-top: 1px solid palegreen;
 
 }
+#toiawase2 h1{color:palevioletred;}
 .icon-content{
 font-size: 40px;
 color: green;
 }
+.koibitono{color: black;}
 .icon-content a{
 color: green;}
 .icon-content2 a{
 font-size: 40px;
 color: black;
+}
+.icon-content3 a{
+font-size: 40px;
+color: palevioletred;
+}
+.icon-content4 a{
+
+color: palevioletred;
 }
 .pt10{
 	padding-top:10px;
@@ -159,7 +170,10 @@ border: 1px #aa8260 solid;}
 	max-width: 400px;
 	margin-bottom: 30px;
 }
-
+#koi h1{color:palevioletred;
+}
+#iroiro{border-top: 1px solid palevioletred;}
+#koibi a{color: palevioletred}
 #rogo h1 {
 	margin: 20px 0;
 	color: #aa8260;
