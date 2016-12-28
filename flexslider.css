@@ -144,12 +144,12 @@ margin-top: 40px;
   font-family: "flexslider-icon";
   font-size: 40px;
   display: inline-block;
-  content: '\f001';
+  content: '';
   color: rgba(255, 255, 255, 1);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
 }
 .flex-direction-nav a.flex-next:before {
-  content: '\f002';
+  content: '';
 }
 .flex-direction-nav .flex-prev {
   left: -50px;
