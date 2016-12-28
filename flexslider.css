@@ -200,13 +200,13 @@ background: url(image/0173.png)  no-repeat left;
   font-family: "flexslider-icon";
   font-size: 20px;
   display: inline-block;
-  content: '\f004';
+  content: '';
 }
 .flex-pauseplay a:hover {
   opacity: 1;
 }
 .flex-pauseplay a.flex-play:before {
-  content: '\f003';
+  content: '';
 }
 .flex-control-nav {
   width: 100%;
