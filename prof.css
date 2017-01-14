@@ -133,7 +133,9 @@ margin: 10px 0;
 	     -webkit-box-shadow: 2px 2px 3px 1px #666;
 
 }
+.syukatsu span{color: red;}
 .nagare h2{color: darkslategray;}
+.nagare span{color: yellow;}
 #syasin{width: 60%;
 border: 1px #aa8260 solid;}
 #word{border: 1px #aa8260 solid;}
