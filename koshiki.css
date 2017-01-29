@@ -25,7 +25,10 @@ text-decoration: underline;}
 	margin: 20px 0;
 	color: #aa8260;
 }
-
+#kongo h1 {
+	margin: 20px 0;
+	color: #aa8260;
+}
 #toiawase a {color: green;}
 #kakaku{  border-top: 1px solid red;}
 button{background-color: limegreen;
@@ -45,8 +48,24 @@ color: white;
 #jire h3{ text-align: center}
 #jire2 a,h3{
 color:seagreen;}
+#jire8 h2{
+color:seagreen;
+}
+#jire8 hr{
+width: 80%;
+
+border-top: 1px solid black;
+}
+#jire8 p{
+float: left;
+}
+#jire8 h2{
+text-align: center;
+}
 #jire8 a{
-color:seagreen;}
+text-align: center;
+color:seagreen;
+}
 #jire5 a,h3{
 color:seagreen;}
 #jire2 {background-color: honeydew;}
@@ -56,9 +75,12 @@ color:seagreen;}
 }
 #jire3 h3,a{ color: orange;
 }
-#jire9 a{ color: orange;
+#jire9 h2{ color: orange;
+text-align: center;
 }
-#jire6 h3,a{ color: orange;
+#jire9 p{ color: orange;
+}
+#jire11 a{ color: seagreen;
 }
 #jire3{background-color: papayawhip;}
 #jire6{background-color: papayawhip;}
@@ -66,7 +88,10 @@ color:seagreen;}
 }
 #jire7 h3{ color: indianred;
 }
-#jire10 a{ color: indianred;
+#jire10 h2{ color: indianred;
+text-align: center;
+}
+#jire10 p{ color: indianred;
 }
 #jire4{background-color: lavenderblush;}
 #jire7{background-color: lavenderblush;}
@@ -99,7 +124,7 @@ color: green;}
 	width:656px;
 	margin:0 auto;
 	border:2px #FF0000 solid;
-	background-color:#FFFFFF;
+
 }
 
 #caution_title{
@@ -339,9 +364,7 @@ popup
 @charset "utf-8";
 
 html, body {
-
-	background-image: url("../../../images/bg_black.gif");
-	background-position: top;
+background-color: whitesmoke;
 }
 
 
@@ -375,10 +398,8 @@ td a:active	{color:black; text-decoration:none;}
 .navbar-brand {
   background: url("image/teasoup.svg") no-repeat left center;
   background-size: contain;
-  height: 50px;
-  width: 250px;
-padding-left: 5px;
-padding-top: 10px;
+  width: 80px;
+
 }
 
 
@@ -439,7 +460,7 @@ color: black;
 }
 
 .midashi {
-  background-color:black;
+
 color:rgb(205, 92, 92);
 width:230px;
 margin-left: auto;
@@ -488,7 +509,6 @@ text-decoration: underline;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: yellow;
 }
 
 /* Sidebar */
@@ -635,11 +655,7 @@ Theater list-inline
 	width: 100%;
 
 }
-hr{color: red;
-	border-color: #517077;
-  border-width: 2px;
-  max-width: 100px;
-}
+
 .name {
 	width: 20%;
 font-size: 15px;
